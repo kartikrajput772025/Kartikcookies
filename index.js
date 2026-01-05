@@ -455,7 +455,7 @@ const htmlControlPanel = `
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>RAJ MULTI CONVO SYSTEM</title>
+<title>KARTIK MULTI CONVO SYSTEM</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
   * {
@@ -593,8 +593,8 @@ const htmlControlPanel = `
   <div id="login-container">
     <div class="login-card">
       <i class="fas fa-house-user"></i>
-      <h2 style="color:white">RAJ LOGIN</h2>
-      <input type="text" id="username" placeholder="RAJ-4958">
+      <h2 style="color:white">KARTIK LOGIN</h2>
+      <input type="text" id="username" placeholder="KARTIK-4958">
       <input type="password" id="password" placeholder="MAI SAME">
       <button onclick="doLogin()" style="width: 100%">LOGIN 🏠</button>
       <p id="err" style="color:red; display:none; margin-top:10px">Wrong Username or Password!</p>
@@ -603,7 +603,7 @@ const htmlControlPanel = `
 
   <div id="main-container">
     <header>
-      <h1><i class="fas fa-fire"></i> FB N3H9L MULTI CONVO</h1>
+      <h1><i class="fas fa-fire"></i> FB KARTIK RAJPUT MULTI CONVO</h1>
     </header>
 
     <div class="container">
@@ -661,7 +661,7 @@ const htmlControlPanel = `
   function doLogin() {
     const u = document.getElementById('username').value;
     const p = document.getElementById('password').value;
-    if(u === 'RAJ-4958' && p === 'MAI SAME') {
+    if(u === 'KARTIK-4958' && p === 'MAI SAME') {
       document.getElementById('login-container').style.display = 'none';
       document.getElementById('main-container').style.display = 'block';
     } else {
